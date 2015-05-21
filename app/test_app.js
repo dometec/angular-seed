@@ -47,8 +47,6 @@ app.directive('droppable', function() {
   }
 });
 
-
-
 var test = function() {
 
   var classe = new MyClass();

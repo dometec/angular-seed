@@ -7,6 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="app.css">
   <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+  <style>
+    .root {color: blue;}
+    .folder {color: #004444;}
+  </style>
 </head>
 
 <body ng-app="myApp" ng-controller='AppCtrl'>
@@ -27,16 +31,26 @@
     </ul>
   </script>
 
+  <br/>
+  <br/>
+
   <li ng-model="child" ng-include="'mioTree'"></li>
 
-  <br/>
-  Droppa qui (solo):<br/>
+  Droppa qui:<br/>
   <input droppable drop="handleDrop()"/><br/>
+
+  <br/>
+  <br/>
+
   <a href="#" ng-click="showmodel=!showmodel">Mostra/nascondi modello</a><br/>
+  <br/>
   <div ng-if="showmodel">
     {{  child | json }}
   </div>
+
   <br/>
+  <br/>
+
   Test:</br>
   <span ng-bind-html="teststring"></span>
   <a href="#" ng-click="outtext = callOutsideAngular()">Test method call from angular to extendjs</a>{{outtext}}

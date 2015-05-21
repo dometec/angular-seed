@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Test AngularJS and ExtendJS</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="app.css">
+  <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body ng-app="myApp" ng-controller='AppCtrl'>
+
+  <h2>Test AngularJS and ExtendJS</h2>
+
+  <hr/>
+  Ricerca: <input ng-model="search"/>
+
+  <script id="mioTree" type="text/ng-template">
+    <span ng-class="{root: child.type == 'DATA_ROOT', folder: child.type == 'FOLDER'}" >
+      <span draggable>{{ child.name }} ({{child.children.length}})</span>
+      <a ng-if="child.children.length" href="#" ng-click="child.show=!child.show">open/close</a>
+    <span>
+    <ul ng-if="child.show" ng-if="child.children">
+      <li ng-repeat="child in child.children | filter:search | orderBy:'name'" ng-include="'mioTree'">
+      </li>
+    </ul>
+  </script>
+
+  <li ng-model="child" ng-include="'mioTree'"></li>
+
+  <br/>
+  Droppa qui (solo):<br/>
+  <input droppable drop="handleDrop()"/><br/>
+  <a href="#" ng-click="showmodel=!showmodel">Mostra/nascondi modello</a><br/>
+  <div ng-if="showmodel">
+    {{  child | json }}
+  </div>
+  <br/>
+  Test:</br>
+  <span ng-bind-html="teststring"></span>
+  <a href="#" ng-click="outtext = callOutsideAngular()">Test method call from angular to extendjs</a>{{outtext}}
+  <hr/>
+
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="bower_components/extend.js/bin/extend.min.js"></script>
+
+  <script src="test.json"></script>
+  <script src="myclasses.js"></script>
+  <script src="test_app.js"></script>
+
+</body>
+</html>

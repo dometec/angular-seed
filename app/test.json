@@ -1,0 +1,3138 @@
+var JSONTI = { "projectJson":{
+  "id": "be71897f-8738-ea8e-6781-404728c398cf",
+  "name": "Trafo global monitoring 10",
+  "type": "TISCADA.Project",
+  "version": "1.0.0",
+  "defaultPageId": "0a55b1ef-b770-c30c-6eb1-3e73ad70d8d9",
+  "pageList": [
+    {
+      "index": 1,
+      "id": "0a55b1ef-b770-c30c-6eb1-3e73ad70d8d9",
+      "name": "Status overview",
+      "parameterList": [],
+      "componentList": [
+        {
+          "type": "TISCADA.Image",
+          "id": "99f6d183-e290-02fa-b5e6-b6fadd7171d5",
+          "x": -4,
+          "y": -1.4375,
+          "width": 815,
+          "height": 813,
+          "userData": null,
+          "cssClass": "TISCADA_Image",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 0,
+          "alpha": 1,
+          "radius": 2,
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          },
+          "imageInfo": {
+            "hash": "f02c5712ee8372a2791baf5cc768cd87041d6469",
+            "name": "large-power-siemens.jpg"
+          },
+          "valid": true
+        },
+        {
+          "type": "TISCADA.Note",
+          "id": "e77d830f-123a-2285-fc7a-89d9b09ee44d",
+          "x": 641,
+          "y": 36.09375,
+          "width": 129,
+          "height": 31,
+          "userData": null,
+          "cssClass": "TISCADA_Note noteComponent",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "text": "Ageing",
+          "fontSize": 12,
+          "fontColor": "#080808",
+          "fontFamily": null,
+          "note": "Ageing",
+          "valid": true,
+          "componentType": "TISCADA.Note",
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          }
+        },
+        {
+          "type": "TISCADA.Note",
+          "id": "3e57d039-c5fa-93c8-adfb-b24fa971bc88",
+          "x": 641,
+          "y": 84.09375,
+          "width": 129,
+          "height": 31,
+          "userData": null,
+          "cssClass": "TISCADA_Note noteComponent",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "text": "Load Ratio",
+          "fontSize": 12,
+          "fontColor": "#080808",
+          "fontFamily": null,
+          "note": "Load Ratio",
+          "valid": true,
+          "componentType": "TISCADA.Note",
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          }
+        },
+        {
+          "type": "TISCADA.Note",
+          "id": "73e452df-5fcf-cd8a-4200-3b4f7456ff1f",
+          "x": 641,
+          "y": 132.09375,
+          "width": 139,
+          "height": 31,
+          "userData": null,
+          "cssClass": "TISCADA_Note noteComponent",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "text": "Overload Capacity",
+          "fontSize": 12,
+          "fontColor": "#080808",
+          "fontFamily": null,
+          "note": "Overload Capacity",
+          "valid": true,
+          "componentType": "TISCADA.Note",
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          }
+        },
+        {
+          "type": "TISCADA.Tag",
+          "id": "8ad74bdd-3073-55ba-1efc-b963bc260816",
+          "x": 33,
+          "y": 105.5625,
+          "width": 92,
+          "height": 48,
+          "userData": null,
+          "cssClass": "TISCADA_Tag",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          },
+          "dataSource": {
+            "type": "Middleware",
+            "mwNode": {
+              "path": "environmental conditions/Temperature"
+            }
+          },
+          "readOnly": true,
+          "valid": true
+        },
+        {
+          "type": "TISCADA.Tag",
+          "id": "ce0b5929-60fc-bc58-e062-67a54715dedb",
+          "x": 139,
+          "y": 105.5625,
+          "width": 92,
+          "height": 48,
+          "userData": null,
+          "cssClass": "TISCADA_Tag",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          },
+          "dataSource": {
+            "type": "Middleware",
+            "mwNode": {
+              "path": "environmental conditions/Humidity"
+            }
+          },
+          "readOnly": true,
+          "valid": true
+        },
+        {
+          "type": "TISCADA.Tag",
+          "id": "67b8574b-fd56-efec-a30e-ed3332c93f4c",
+          "x": 539,
+          "y": 32.09375,
+          "width": 90,
+          "height": 40,
+          "userData": null,
+          "cssClass": "TISCADA_Tag",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          },
+          "dataSource": {
+            "type": "Middleware",
+            "mwNode": {
+              "path": "operative conditions/Ageing"
+            }
+          },
+          "readOnly": true,
+          "valid": true
+        },
+        {
+          "type": "TISCADA.Tag",
+          "id": "a22ce341-4fd8-6835-4558-cb666efbe2d1",
+          "x": 539,
+          "y": 80.5625,
+          "width": 89,
+          "height": 40,
+          "userData": null,
+          "cssClass": "TISCADA_Tag",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          },
+          "dataSource": {
+            "type": "Middleware",
+            "mwNode": {
+              "path": "operative conditions/Load ratio"
+            }
+          },
+          "readOnly": true,
+          "valid": true
+        },
+        {
+          "type": "TISCADA.Tag",
+          "id": "67a94bd1-ce18-d43b-00d1-815e16d8b3ea",
+          "x": 539,
+          "y": 128.5625,
+          "width": 89,
+          "height": 40,
+          "userData": null,
+          "cssClass": "TISCADA_Tag",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          },
+          "dataSource": {
+            "type": "Middleware",
+            "mwNode": {
+              "path": "operative conditions/Overload capacity"
+            }
+          },
+          "readOnly": true,
+          "valid": true
+        },
+        {
+          "type": "TISCADA.Tag",
+          "id": "3d5a66ba-9395-5b19-9c9f-8aa577309fd8",
+          "x": 505,
+          "y": 275.5625,
+          "width": 100,
+          "height": 40,
+          "userData": null,
+          "cssClass": "TISCADA_Tag",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          },
+          "dataSource": {
+            "type": "Middleware",
+            "mwNode": {
+              "path": "operative conditions/Temp Oil"
+            }
+          },
+          "readOnly": true,
+          "valid": true
+        },
+        {
+          "type": "TISCADA.Note",
+          "id": "be4d7f7c-e70b-bbb6-da61-da17409a6d29",
+          "x": 491,
+          "y": 239.09375,
+          "width": 129,
+          "height": 31,
+          "userData": null,
+          "cssClass": "TISCADA_Note noteComponent",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "text": "Top Oil Temp °C",
+          "fontSize": 12,
+          "fontColor": "#080808",
+          "fontFamily": null,
+          "note": "Top Oil Temp °C",
+          "valid": true,
+          "componentType": "TISCADA.Note",
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          }
+        },
+        {
+          "type": "TISCADA.Image",
+          "id": "63b11abe-efca-e8fe-fd19-166f8fa11942",
+          "x": 55,
+          "y": 44.09375,
+          "width": 50,
+          "height": 50,
+          "userData": null,
+          "cssClass": "TISCADA_Image",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "pageLink": {
+            "pageId": "893a45a0-e7e3-e56c-2293-1eab156ff09c",
+            "parameterList": []
+          },
+          "imageInfo": {
+            "hash": "d358e006c071e891ddae1174dfdeab530e0a492e",
+            "name": "temperature.png"
+          },
+          "valid": true
+        },
+        {
+          "type": "TISCADA.Image",
+          "id": "9742d27d-9689-4399-35f2-a18bd1b5d59f",
+          "x": 161,
+          "y": 44.09375,
+          "width": 50,
+          "height": 50,
+          "userData": null,
+          "cssClass": "TISCADA_Image",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "pageLink": {
+            "pageId": "893a45a0-e7e3-e56c-2293-1eab156ff09c",
+            "parameterList": []
+          },
+          "imageInfo": {
+            "hash": "bf95e95b3e6829e573bddb8a84939ce7bf36fb5a",
+            "name": "humidity.png"
+          },
+          "valid": true
+        },
+        {
+          "type": "TISCADA.Image",
+          "id": "aaab21ee-0cc4-3bba-3b09-ee10b4858bc5",
+          "x": 290,
+          "y": 26.09375,
+          "width": 169,
+          "height": 68,
+          "userData": null,
+          "cssClass": "TISCADA_Image",
+          "bgColor": "#FFFFFF",
+          "color": "#87CEEB",
+          "stroke": 5,
+          "alpha": 1,
+          "radius": 2,
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          },
+          "imageInfo": {
+            "hash": "51ee70ac7f2c0769c403ced963a7407e0395bb4c",
+            "name": "generic-serial-number-label-silver-blue.gif"
+          },
+          "valid": true
+        },
+        {
+          "type": "TISCADA.Note",
+          "id": "2a5cbb5f-63ce-274c-13a0-da952aed3bbf",
+          "x": 340,
+          "y": 729,
+          "width": 109,
+          "height": 31,
+          "userData": null,
+          "cssClass": "TISCADA_Note noteComponent",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "text": "Alarms details",
+          "fontSize": 12,
+          "fontColor": "#080808",
+          "fontFamily": null,
+          "note": "Alarms details",
+          "valid": true,
+          "componentType": "TISCADA.Note",
+          "pageLink": {
+            "pageId": "65da1842-9b68-c12b-499f-341b4fc21509",
+            "parameterList": []
+          }
+        },
+        {
+          "type": "TISCADA.Note",
+          "id": "14b8ed13-1ef9-0d73-0636-583668312a29",
+          "x": 343,
+          "y": 593,
+          "width": 100,
+          "height": 31,
+          "userData": null,
+          "cssClass": "TISCADA_Note noteComponent",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "text": "Global Alarm",
+          "fontSize": 12,
+          "fontColor": "#080808",
+          "fontFamily": null,
+          "note": "Global Alarm",
+          "valid": true,
+          "componentType": "TISCADA.Note",
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          }
+        },
+        {
+          "type": "TISCADA.Note",
+          "id": "ec3951ef-966c-09c4-3935-62cea201c4ed",
+          "x": 33,
+          "y": 539,
+          "width": 178,
+          "height": 31,
+          "userData": null,
+          "cssClass": "TISCADA_Note noteComponent",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "text": "Cooling FAN Status [#1]",
+          "fontSize": 12,
+          "fontColor": "#080808",
+          "fontFamily": null,
+          "note": "Cooling FAN Status [#1]",
+          "valid": true,
+          "componentType": "TISCADA.Note",
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          }
+        },
+        {
+          "type": "TISCADA.Note",
+          "id": "62da0884-f194-9773-8aee-d068f62479bf",
+          "x": 604,
+          "y": 563,
+          "width": 178,
+          "height": 31,
+          "userData": null,
+          "cssClass": "TISCADA_Note noteComponent",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "text": "Cooling FAN Status [#2]",
+          "fontSize": 12,
+          "fontColor": "#080808",
+          "fontFamily": null,
+          "note": "Cooling FAN Status [#2]",
+          "valid": true,
+          "componentType": "TISCADA.Note",
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          }
+        },
+        {
+          "type": "TISCADA.TagEnum",
+          "id": "315b05f9-601c-3046-cf52-598796f53ecb",
+          "x": 663,
+          "y": 603,
+          "width": 50,
+          "height": 50,
+          "userData": null,
+          "cssClass": "TISCADA_TagEnum",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          },
+          "dataSource": {
+            "type": "Middleware",
+            "mwNode": {
+              "path": "operative conditions/cooling fan #2"
+            }
+          },
+          "enumValuesModel": [
+            {
+              "value": 0,
+              "descrval": "OFF",
+              "image": "",
+              "color": "#333333"
+            },
+            {
+              "value": 1,
+              "descrval": "ON",
+              "image": "",
+              "color": "#00FF00"
+            }
+          ],
+          "readOnly": true,
+          "valid": true
+        },
+        {
+          "type": "TISCADA.TagEnum",
+          "id": "bb9008ae-c03a-ee65-8cdd-ed35bb5b7c9e",
+          "x": 90,
+          "y": 579,
+          "width": 50,
+          "height": 50,
+          "userData": null,
+          "cssClass": "TISCADA_TagEnum",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          },
+          "dataSource": {
+            "type": "Middleware",
+            "mwNode": {
+              "path": "operative conditions/cooling fan #1"
+            }
+          },
+          "enumValuesModel": [
+            {
+              "value": 0,
+              "descrval": "OFF",
+              "image": "",
+              "color": "#333333"
+            },
+            {
+              "value": 1,
+              "descrval": "ON",
+              "image": "",
+              "color": "#00FF00"
+            }
+          ],
+          "readOnly": true,
+          "valid": true
+        },
+        {
+          "type": "TISCADA.Alarm",
+          "id": "5fea6737-7795-bf3c-3b13-dc8581ddbd39",
+          "x": 351,
+          "y": 632,
+          "width": 80,
+          "height": 80,
+          "userData": null,
+          "cssClass": "TISCADA_Alarm",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "pageLink": {
+            "pageId": "65da1842-9b68-c12b-499f-341b4fc21509",
+            "parameterList": []
+          },
+          "dataSource": {
+            "type": "Middleware",
+            "mwNode": {
+              "path": "global alarm"
+            }
+          },
+          "alarmLevels": [
+            {
+              "severityLowerBound": 0,
+              "severityHigherBound": 499,
+              "color": "#00FF00"
+            },
+            {
+              "severityLowerBound": 500,
+              "severityHigherBound": 699,
+              "color": "#FFFF00"
+            },
+            {
+              "severityLowerBound": 700,
+              "severityHigherBound": 1000,
+              "color": "#FF0000"
+            }
+          ],
+          "recipientList": [],
+          "valid": true
+        },
+        {
+          "type": "TISCADA.Note",
+          "id": "becce9f5-ce07-42e2-3f14-853aa290adb5",
+          "x": 104,
+          "y": 176.09375,
+          "width": 58,
+          "height": 28,
+          "userData": null,
+          "cssClass": "TISCADA_Note noteComponent",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "text": "Trends",
+          "fontSize": 12,
+          "fontColor": "#080808",
+          "fontFamily": null,
+          "note": "Trends",
+          "valid": true,
+          "componentType": "TISCADA.Note",
+          "pageLink": {
+            "pageId": "893a45a0-e7e3-e56c-2293-1eab156ff09c",
+            "parameterList": []
+          }
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "id": "5de8260c-d8bb-0676-6924-d471f32181bc",
+      "name": "Bushing Status",
+      "parameterList": [
+        {
+          "name": "Phase"
+        },
+        {
+          "name": "Previous"
+        },
+        {
+          "name": "Next"
+        }
+      ],
+      "componentList": [
+        {
+          "type": "TISCADA.Note",
+          "id": "dea119a8-8ebb-f902-0f8d-44dbd85180e3",
+          "x": 149,
+          "y": 477,
+          "width": 131,
+          "height": 28,
+          "userData": null,
+          "cssClass": "TISCADA_Note noteComponent",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "text": "Partial Discharge",
+          "fontSize": 12,
+          "fontColor": "#080808",
+          "fontFamily": null,
+          "note": "Partial Discharge",
+          "valid": true,
+          "componentType": "TISCADA.Note",
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          }
+        },
+        {
+          "type": "TISCADA.Note",
+          "id": "7939ce60-f42c-f236-048a-41d377377f31",
+          "x": 503,
+          "y": 104.09375,
+          "width": 122,
+          "height": 28,
+          "userData": null,
+          "cssClass": "TISCADA_Note noteComponent",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "text": "Phase $Phase$",
+          "fontSize": 12,
+          "fontColor": "#080808",
+          "fontFamily": null,
+          "note": "Phase $Phase$",
+          "valid": true,
+          "componentType": "TISCADA.Note",
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          }
+        },
+        {
+          "type": "TISCADA.Alarm",
+          "id": "c741892f-3b5d-6f7d-f9ea-b6bf7d0d2fe1",
+          "x": 254,
+          "y": 256.09375,
+          "width": 80,
+          "height": 80,
+          "userData": null,
+          "cssClass": "TISCADA_Alarm",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          },
+          "dataSource": {
+            "type": "Middleware",
+            "mwNode": {
+              "path": "Bushing PH-$Phase$/Bushing alarm"
+            }
+          },
+          "alarmLevels": [
+            {
+              "severityLowerBound": 0,
+              "severityHigherBound": 499,
+              "color": "#00FF00"
+            },
+            {
+              "severityLowerBound": 500,
+              "severityHigherBound": 699,
+              "color": "#FFFF00"
+            },
+            {
+              "severityLowerBound": 700,
+              "severityHigherBound": 1000,
+              "color": "#FF0000"
+            }
+          ],
+          "recipientList": [],
+          "valid": true
+        },
+        {
+          "type": "TISCADA.Note",
+          "id": "01009fe7-a7ce-e3a3-a48c-6c84e7e57f06",
+          "x": 239,
+          "y": 218.09375,
+          "width": 109,
+          "height": 28,
+          "userData": null,
+          "cssClass": "TISCADA_Note noteComponent",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "text": "Bushing alarm",
+          "fontSize": 12,
+          "fontColor": "#080808",
+          "fontFamily": null,
+          "note": "Bushing alarm",
+          "valid": true,
+          "componentType": "TISCADA.Note",
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          }
+        },
+        {
+          "type": "TISCADA.Tag",
+          "id": "df50fbbd-0be0-e611-e6c0-eee5481b11d7",
+          "x": 304,
+          "y": 401,
+          "width": 132,
+          "height": 40,
+          "userData": null,
+          "cssClass": "TISCADA_Tag",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          },
+          "dataSource": {
+            "type": "Middleware",
+            "mwNode": {
+              "path": "Bushing PH-$Phase$/Tan Delta Value"
+            }
+          },
+          "readOnly": true,
+          "valid": true
+        },
+        {
+          "type": "TISCADA.Tag",
+          "id": "b011ac1e-ba75-4952-ba0f-bd20bd00d1bb",
+          "x": 304,
+          "y": 471,
+          "width": 132,
+          "height": 40,
+          "userData": null,
+          "cssClass": "TISCADA_Tag",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          },
+          "dataSource": {
+            "type": "Middleware",
+            "mwNode": {
+              "path": "Bushing PH-$Phase$/Partial Discharge"
+            }
+          },
+          "readOnly": true,
+          "valid": true
+        },
+        {
+          "type": "TISCADA.Tag",
+          "id": "40be6c3c-b8c9-e156-6f1b-d50f02a91c71",
+          "x": 304,
+          "y": 542,
+          "width": 132,
+          "height": 40,
+          "userData": null,
+          "cssClass": "TISCADA_Tag",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          },
+          "dataSource": {
+            "type": "Middleware",
+            "mwNode": {
+              "path": "Bushing PH-$Phase$/Capacitance value"
+            }
+          },
+          "readOnly": true,
+          "valid": true
+        },
+        {
+          "type": "TISCADA.Tag",
+          "id": "b2ef1685-9d49-ddf0-d3ca-836bb398593c",
+          "x": 304,
+          "y": 610,
+          "width": 132,
+          "height": 40,
+          "userData": null,
+          "cssClass": "TISCADA_Tag",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          },
+          "dataSource": {
+            "type": "Middleware",
+            "mwNode": {
+              "path": "Bushing PH-$Phase$/Resistance Value"
+            }
+          },
+          "readOnly": true,
+          "valid": true
+        },
+        {
+          "type": "TISCADA.Tag",
+          "id": "5db60b21-78a2-a67c-9a9e-96495bc5928c",
+          "x": 304,
+          "y": 679,
+          "width": 132,
+          "height": 40,
+          "userData": null,
+          "cssClass": "TISCADA_Tag",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          },
+          "dataSource": {
+            "type": "Middleware",
+            "mwNode": {
+              "path": "Bushing PH-$Phase$/Temperature value"
+            }
+          },
+          "readOnly": true,
+          "valid": true
+        },
+        {
+          "type": "TISCADA.Alarm",
+          "id": "6f7cbbe0-6ef5-3237-66c7-306704af5cce",
+          "x": 565,
+          "y": 391,
+          "width": 60,
+          "height": 60,
+          "userData": null,
+          "cssClass": "TISCADA_Alarm",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          },
+          "dataSource": {
+            "type": "Middleware",
+            "mwNode": {
+              "path": "Bushing PH-$Phase$/TD alarm"
+            }
+          },
+          "alarmLevels": [
+            {
+              "severityLowerBound": 0,
+              "severityHigherBound": 499,
+              "color": "#00FF00"
+            },
+            {
+              "severityLowerBound": 500,
+              "severityHigherBound": 699,
+              "color": "#FFFF00"
+            },
+            {
+              "severityLowerBound": 700,
+              "severityHigherBound": 1000,
+              "color": "#FF0000"
+            }
+          ],
+          "recipientList": [],
+          "valid": true
+        },
+        {
+          "type": "TISCADA.Alarm",
+          "id": "fb0c740f-68ae-0c4a-4b3a-9a672700f20d",
+          "x": 565,
+          "y": 461,
+          "width": 60,
+          "height": 60,
+          "userData": null,
+          "cssClass": "TISCADA_Alarm",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          },
+          "dataSource": {
+            "type": "Middleware",
+            "mwNode": {
+              "path": "Bushing PH-$Phase$/PD Alarm"
+            }
+          },
+          "alarmLevels": [
+            {
+              "severityLowerBound": 0,
+              "severityHigherBound": 499,
+              "color": "#00FF00"
+            },
+            {
+              "severityLowerBound": 500,
+              "severityHigherBound": 699,
+              "color": "#FFFF00"
+            },
+            {
+              "severityLowerBound": 700,
+              "severityHigherBound": 1000,
+              "color": "#FF0000"
+            }
+          ],
+          "recipientList": [],
+          "valid": true
+        },
+        {
+          "type": "TISCADA.Alarm",
+          "id": "601da369-2495-5d05-ac18-f707baa2ea42",
+          "x": 565,
+          "y": 531,
+          "width": 60,
+          "height": 60,
+          "userData": null,
+          "cssClass": "TISCADA_Alarm",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          },
+          "dataSource": {
+            "type": "Middleware",
+            "mwNode": {
+              "path": "Bushing PH-$Phase$/Capacitance Alarm"
+            }
+          },
+          "alarmLevels": [
+            {
+              "severityLowerBound": 0,
+              "severityHigherBound": 499,
+              "color": "#00FF00"
+            },
+            {
+              "severityLowerBound": 500,
+              "severityHigherBound": 699,
+              "color": "#FFFF00"
+            },
+            {
+              "severityLowerBound": 700,
+              "severityHigherBound": 1000,
+              "color": "#FF0000"
+            }
+          ],
+          "recipientList": [],
+          "valid": true
+        },
+        {
+          "type": "TISCADA.Alarm",
+          "id": "ac7a6903-cf3a-b841-1168-a3c88ba2040c",
+          "x": 565,
+          "y": 600,
+          "width": 60,
+          "height": 60,
+          "userData": null,
+          "cssClass": "TISCADA_Alarm",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          },
+          "dataSource": {
+            "type": "Middleware",
+            "mwNode": {
+              "path": "Bushing PH-$Phase$/Resistance Alarm"
+            }
+          },
+          "alarmLevels": [
+            {
+              "severityLowerBound": 0,
+              "severityHigherBound": 499,
+              "color": "#00FF00"
+            },
+            {
+              "severityLowerBound": 500,
+              "severityHigherBound": 699,
+              "color": "#FFFF00"
+            },
+            {
+              "severityLowerBound": 700,
+              "severityHigherBound": 1000,
+              "color": "#FF0000"
+            }
+          ],
+          "recipientList": [],
+          "valid": true
+        },
+        {
+          "type": "TISCADA.Alarm",
+          "id": "55d891e5-e2b4-fae1-b576-c1a972a14c00",
+          "x": 565,
+          "y": 668,
+          "width": 60,
+          "height": 60,
+          "userData": null,
+          "cssClass": "TISCADA_Alarm",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          },
+          "dataSource": {
+            "type": "Middleware",
+            "mwNode": {
+              "path": "Bushing PH-$Phase$/Temperature Alarm"
+            }
+          },
+          "alarmLevels": [
+            {
+              "severityLowerBound": 0,
+              "severityHigherBound": 499,
+              "color": "#00FF00"
+            },
+            {
+              "severityLowerBound": 500,
+              "severityHigherBound": 699,
+              "color": "#FFFF00"
+            },
+            {
+              "severityLowerBound": 700,
+              "severityHigherBound": 1000,
+              "color": "#FF0000"
+            }
+          ],
+          "recipientList": [],
+          "valid": true
+        },
+        {
+          "type": "TISCADA.Note",
+          "id": "a5b0b6d8-5e0a-9ac5-61dd-8ae4f7adfa46",
+          "x": 149,
+          "y": 23.09375,
+          "width": 144,
+          "height": 28,
+          "userData": null,
+          "cssClass": "TISCADA_Note noteComponent",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "text": "< Previous Bushing",
+          "fontSize": 12,
+          "fontColor": "#080808",
+          "fontFamily": null,
+          "note": "< Previous Bushing",
+          "valid": true,
+          "componentType": "TISCADA.Note",
+          "pageLink": {
+            "pageId": "5de8260c-d8bb-0676-6924-d471f32181bc",
+            "parameterList": [
+              {
+                "name": "Phase",
+                "value": "$Previous$"
+              },
+              {
+                "name": "Previous",
+                "value": "$Next$"
+              },
+              {
+                "name": "Next",
+                "value": "$Phase$"
+              }
+            ]
+          }
+        },
+        {
+          "type": "TISCADA.Note",
+          "id": "d2da7565-b90f-686a-29c3-0500f0a5f2e9",
+          "x": 511,
+          "y": 23.09375,
+          "width": 114,
+          "height": 28,
+          "userData": null,
+          "cssClass": "TISCADA_Note noteComponent",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "text": "Next Bushing >",
+          "fontSize": 12,
+          "fontColor": "#080808",
+          "fontFamily": null,
+          "note": "Next Bushing >",
+          "valid": true,
+          "componentType": "TISCADA.Note",
+          "pageLink": {
+            "pageId": "5de8260c-d8bb-0676-6924-d471f32181bc",
+            "parameterList": [
+              {
+                "name": "Phase",
+                "value": "$Next$"
+              },
+              {
+                "name": "Previous",
+                "value": "$Phase$"
+              },
+              {
+                "name": "Next",
+                "value": "$Previous$"
+              }
+            ]
+          }
+        },
+        {
+          "type": "TISCADA.Note",
+          "id": "15a7c40c-a295-241e-2eb3-60e546caf38e",
+          "x": 149,
+          "y": 408.09375,
+          "width": 77,
+          "height": 28,
+          "userData": null,
+          "cssClass": "TISCADA_Note noteComponent",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "text": "Tan Delta",
+          "fontSize": 12,
+          "fontColor": "#080808",
+          "fontFamily": null,
+          "note": "Tan Delta",
+          "valid": true,
+          "componentType": "TISCADA.Note",
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          }
+        },
+        {
+          "type": "TISCADA.Note",
+          "id": "fe91d4fc-de76-4018-2f1f-859e8001eca2",
+          "x": 149,
+          "y": 549.09375,
+          "width": 99,
+          "height": 28,
+          "userData": null,
+          "cssClass": "TISCADA_Note noteComponent",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "text": "Capacitance",
+          "fontSize": 12,
+          "fontColor": "#080808",
+          "fontFamily": null,
+          "note": "Capacitance",
+          "valid": true,
+          "componentType": "TISCADA.Note",
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          }
+        },
+        {
+          "type": "TISCADA.Note",
+          "id": "6f6c4e3a-d90b-5ffa-f03e-5440ef3c6139",
+          "x": 149,
+          "y": 618,
+          "width": 88,
+          "height": 28,
+          "userData": null,
+          "cssClass": "TISCADA_Note noteComponent",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "text": "Resistance",
+          "fontSize": 12,
+          "fontColor": "#080808",
+          "fontFamily": null,
+          "note": "Resistance",
+          "valid": true,
+          "componentType": "TISCADA.Note",
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          }
+        },
+        {
+          "type": "TISCADA.Note",
+          "id": "0d11b739-3f3d-1433-ddf5-1276f699e41e",
+          "x": 149,
+          "y": 688,
+          "width": 99,
+          "height": 28,
+          "userData": null,
+          "cssClass": "TISCADA_Note noteComponent",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "text": "Temperature",
+          "fontSize": 12,
+          "fontColor": "#080808",
+          "fontFamily": null,
+          "note": "Temperature",
+          "valid": true,
+          "componentType": "TISCADA.Note",
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          }
+        },
+        {
+          "type": "TISCADA.Image",
+          "id": "22ea55f6-d5f2-46a9-e0b0-06631f292f51",
+          "x": 149,
+          "y": 60.09375,
+          "width": 85,
+          "height": 276,
+          "userData": null,
+          "cssClass": "TISCADA_Image",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 0,
+          "alpha": 0,
+          "radius": 2,
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          },
+          "imageInfo": {
+            "hash": "7bf2a5fa52efe29e09ef011a507826685a660812",
+            "name": "ABB BUSHING-2.png"
+          },
+          "valid": true
+        },
+        {
+          "type": "TISCADA.Rectangle",
+          "id": "2ad70702-41b4-d328-2c79-a3b9647f7ac5",
+          "x": 149,
+          "y": 358.09375,
+          "width": 476,
+          "height": 6,
+          "userData": null,
+          "cssClass": "TISCADA_Rectangle",
+          "bgColor": "none",
+          "color": "#000000",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 8
+        },
+        {
+          "type": "TISCADA.Image",
+          "id": "4825da10-242d-6cda-beb0-2f0986941731",
+          "x": 496,
+          "y": 461,
+          "width": 60,
+          "height": 60,
+          "userData": null,
+          "cssClass": "TISCADA_Image",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "pageLink": {
+            "pageId": "c87ef828-570e-237f-c465-772a03ac3966",
+            "parameterList": [
+              {
+                "name": "Phase",
+                "value": "$Phase$"
+              }
+            ]
+          },
+          "imageInfo": {
+            "hash": "f94b76eef1ab32e5e171cb7b424c9ac4cade1450",
+            "name": "eye-3-256.png"
+          },
+          "valid": true
+        },
+        {
+          "type": "TISCADA.Note",
+          "id": "801446b5-214b-7e22-422a-db15e867dd1c",
+          "x": 417,
+          "y": 143.09375,
+          "width": 208,
+          "height": 28,
+          "userData": null,
+          "cssClass": "TISCADA_Note noteComponent",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "text": "Rated Voltage IED (kV): 170",
+          "fontSize": 12,
+          "fontColor": "#080808",
+          "fontFamily": null,
+          "note": "Rated Voltage IED (kV): 170",
+          "valid": true,
+          "componentType": "TISCADA.Note",
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          }
+        },
+        {
+          "type": "TISCADA.Image",
+          "id": "ad980026-c8cd-f0b7-2e53-d5912fdb1a87",
+          "x": 357,
+          "y": 182.09375,
+          "width": 284,
+          "height": 167,
+          "userData": null,
+          "cssClass": "TISCADA_Image",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 0,
+          "alpha": 0,
+          "radius": 2,
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          },
+          "imageInfo": {
+            "hash": "4a87a7bacc2591042482d28f8a184b77f9e39287",
+            "name": "ABB BUSHING targa.png"
+          },
+          "valid": true
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "id": "e6b73ffc-62d0-32a7-9dd4-a773839415c4",
+      "name": "Tank Status",
+      "parameterList": [],
+      "componentList": [
+        {
+          "type": "TISCADA.Note",
+          "id": "76ae6340-7c57-59a3-4e6e-52ac1d0addd7",
+          "x": 141,
+          "y": 399.09375,
+          "width": 160,
+          "height": 28,
+          "userData": null,
+          "cssClass": "TISCADA_Note noteComponent",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "text": "Tap Changer position",
+          "fontSize": 12,
+          "fontColor": "#080808",
+          "fontFamily": null,
+          "note": "Tap Changer position",
+          "valid": true,
+          "componentType": "TISCADA.Note",
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          }
+        },
+        {
+          "type": "TISCADA.Note",
+          "id": "22703662-d2bc-0c65-f007-e71b5127d137",
+          "x": 141,
+          "y": 514.09375,
+          "width": 131,
+          "height": 28,
+          "userData": null,
+          "cssClass": "TISCADA_Note noteComponent",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "text": "CO concentration",
+          "fontSize": 12,
+          "fontColor": "#080808",
+          "fontFamily": null,
+          "note": "CO concentration",
+          "valid": true,
+          "componentType": "TISCADA.Note",
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          }
+        },
+        {
+          "type": "TISCADA.Note",
+          "id": "fd06a67e-4e4a-5e76-9a8a-eea0f5b6d67e",
+          "x": 141,
+          "y": 435.09375,
+          "width": 156,
+          "height": 28,
+          "userData": null,
+          "cssClass": "TISCADA_Note noteComponent",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "text": "Tap Changer counter",
+          "fontSize": 12,
+          "fontColor": "#080808",
+          "fontFamily": null,
+          "note": "Tap Changer counter",
+          "valid": true,
+          "componentType": "TISCADA.Note",
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          }
+        },
+        {
+          "type": "TISCADA.Note",
+          "id": "2330b233-b422-e091-802a-7487bbe34680",
+          "x": 36,
+          "y": 514.09375,
+          "width": 89,
+          "height": 28,
+          "userData": null,
+          "cssClass": "TISCADA_Note noteComponent",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "text": "Oil analisys",
+          "fontSize": 12,
+          "fontColor": "#080808",
+          "fontFamily": null,
+          "note": "Oil analisys",
+          "valid": true,
+          "componentType": "TISCADA.Note",
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          }
+        },
+        {
+          "type": "TISCADA.Note",
+          "id": "00a688f0-731e-168c-7f25-764e9901615d",
+          "x": 141,
+          "y": 549.09375,
+          "width": 127,
+          "height": 28,
+          "userData": null,
+          "cssClass": "TISCADA_Note noteComponent",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "text": "H2 concentration",
+          "fontSize": 12,
+          "fontColor": "#080808",
+          "fontFamily": null,
+          "note": "H2 concentration",
+          "valid": true,
+          "componentType": "TISCADA.Note",
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          }
+        },
+        {
+          "type": "TISCADA.Note",
+          "id": "d0dc55fb-6b57-e4f0-6cdd-ca925dac6aa7",
+          "x": 36,
+          "y": 399.09375,
+          "width": 97,
+          "height": 28,
+          "userData": null,
+          "cssClass": "TISCADA_Note noteComponent",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "text": "Tap changer",
+          "fontSize": 12,
+          "fontColor": "#080808",
+          "fontFamily": null,
+          "note": "Tap changer",
+          "valid": true,
+          "componentType": "TISCADA.Note",
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          }
+        },
+        {
+          "type": "TISCADA.Note",
+          "id": "1d5cb7c6-9435-0e52-5465-014326ebec65",
+          "x": 327,
+          "y": 335.5625,
+          "width": 105,
+          "height": 28,
+          "userData": null,
+          "cssClass": "TISCADA_Note noteComponent",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "text": "Current Value",
+          "fontSize": 12,
+          "fontColor": "#080808",
+          "fontFamily": null,
+          "note": "Current Value",
+          "valid": true,
+          "componentType": "TISCADA.Note",
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          }
+        },
+        {
+          "type": "TISCADA.Note",
+          "id": "3c1f8469-5b8c-a8f7-a01d-e519ea1dffdd",
+          "x": 466,
+          "y": 335.5625,
+          "width": 145,
+          "height": 28,
+          "userData": null,
+          "cssClass": "TISCADA_Note noteComponent",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "text": "Acceptance criteria",
+          "fontSize": 12,
+          "fontColor": "#080808",
+          "fontFamily": null,
+          "note": "Acceptance criteria",
+          "valid": true,
+          "componentType": "TISCADA.Note",
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          }
+        },
+        {
+          "type": "TISCADA.Image",
+          "id": "8cd00cc4-5987-60b6-37ec-bf63091ade37",
+          "x": 39,
+          "y": 108.5625,
+          "width": 294,
+          "height": 153,
+          "userData": null,
+          "cssClass": "TISCADA_Image",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 0,
+          "alpha": 1,
+          "radius": 2,
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          },
+          "imageInfo": {
+            "hash": "dc1933e11e05c13ee8b19ea3e22ca89206620f1a",
+            "name": "large-power-siemens-tank.jpg"
+          },
+          "valid": true
+        },
+        {
+          "type": "TISCADA.Note",
+          "id": "e1182466-5369-c3ef-9dd0-b2711fd136f2",
+          "x": 633,
+          "y": 336.5625,
+          "width": 99,
+          "height": 28,
+          "userData": null,
+          "cssClass": "TISCADA_Note noteComponent",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "text": "Alarm",
+          "fontSize": 12,
+          "fontColor": "#080808",
+          "fontFamily": null,
+          "note": "Alarm",
+          "valid": true,
+          "componentType": "TISCADA.Note",
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          }
+        },
+        {
+          "type": "TISCADA.Note",
+          "id": "50884fb9-9a8d-c0a7-7b5e-06551b9b747f",
+          "x": 350,
+          "y": 173.5625,
+          "width": 87,
+          "height": 28,
+          "userData": null,
+          "cssClass": "TISCADA_Note noteComponent",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "text": "Tank alarm",
+          "fontSize": 12,
+          "fontColor": "#080808",
+          "fontFamily": null,
+          "note": "Tank alarm",
+          "valid": true,
+          "componentType": "TISCADA.Note",
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          }
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "id": "65da1842-9b68-c12b-499f-341b4fc21509",
+      "name": "Alarm Details",
+      "parameterList": [],
+      "componentList": [
+        {
+          "type": "TISCADA.Image",
+          "id": "29b8f9e6-85c7-2714-7fe1-e626e20d8218",
+          "x": 0,
+          "y": -2,
+          "width": 815,
+          "height": 813,
+          "userData": null,
+          "cssClass": "TISCADA_Image",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 0,
+          "alpha": 1,
+          "radius": 2,
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          },
+          "imageInfo": {
+            "hash": "f02c5712ee8372a2791baf5cc768cd87041d6469",
+            "name": "large-power-siemens.jpg"
+          },
+          "valid": true
+        },
+        {
+          "type": "TISCADA.Alarm",
+          "id": "0da64c3b-4329-e6ca-8b43-99bc8b104bed",
+          "x": 527,
+          "y": 268,
+          "width": 60,
+          "height": 60,
+          "userData": null,
+          "cssClass": "TISCADA_Alarm",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          },
+          "dataSource": {
+            "type": "Middleware",
+            "mwNode": {
+              "path": "Tank conditions/Top Oil"
+            }
+          },
+          "alarmLevels": [
+            {
+              "severityLowerBound": 0,
+              "severityHigherBound": 499,
+              "color": "#00FF00"
+            },
+            {
+              "severityLowerBound": 500,
+              "severityHigherBound": 699,
+              "color": "#FFFF00"
+            },
+            {
+              "severityLowerBound": 700,
+              "severityHigherBound": 1000,
+              "color": "#FF0000"
+            }
+          ],
+          "recipientList": [],
+          "valid": true
+        },
+        {
+          "type": "TISCADA.Alarm",
+          "id": "813485ad-c593-c6f8-630e-a1c8e0667dc1",
+          "x": 183,
+          "y": 134,
+          "width": 60,
+          "height": 60,
+          "userData": null,
+          "cssClass": "TISCADA_Alarm",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          },
+          "dataSource": {
+            "type": "Middleware",
+            "mwNode": {
+              "path": "Bushing PH-A/Bushing alarm"
+            }
+          },
+          "alarmLevels": [
+            {
+              "severityLowerBound": 0,
+              "severityHigherBound": 499,
+              "color": "#00FF00"
+            },
+            {
+              "severityLowerBound": 500,
+              "severityHigherBound": 699,
+              "color": "#FFFF00"
+            },
+            {
+              "severityLowerBound": 700,
+              "severityHigherBound": 1000,
+              "color": "#FF0000"
+            }
+          ],
+          "recipientList": [],
+          "valid": true
+        },
+        {
+          "type": "TISCADA.Alarm",
+          "id": "366cb192-d57e-0840-1bc7-b9b450f2fd79",
+          "x": 315,
+          "y": 100,
+          "width": 60,
+          "height": 60,
+          "userData": null,
+          "cssClass": "TISCADA_Alarm",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          },
+          "dataSource": {
+            "type": "Middleware",
+            "mwNode": {
+              "path": "Bushing PH-B/Bushing alarm"
+            }
+          },
+          "alarmLevels": [
+            {
+              "severityLowerBound": 0,
+              "severityHigherBound": 499,
+              "color": "#00FF00"
+            },
+            {
+              "severityLowerBound": 500,
+              "severityHigherBound": 699,
+              "color": "#FFFF00"
+            },
+            {
+              "severityLowerBound": 700,
+              "severityHigherBound": 1000,
+              "color": "#FF0000"
+            }
+          ],
+          "recipientList": [],
+          "valid": true
+        },
+        {
+          "type": "TISCADA.Alarm",
+          "id": "13458de3-bd62-17b1-45df-591a0c55580d",
+          "x": 461,
+          "y": 79.5625,
+          "width": 60,
+          "height": 60,
+          "userData": null,
+          "cssClass": "TISCADA_Alarm",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          },
+          "dataSource": {
+            "type": "Middleware",
+            "mwNode": {
+              "path": "Bushing PH-C/Bushing alarm"
+            }
+          },
+          "alarmLevels": [
+            {
+              "severityLowerBound": 0,
+              "severityHigherBound": 499,
+              "color": "#00FF00"
+            },
+            {
+              "severityLowerBound": 500,
+              "severityHigherBound": 699,
+              "color": "#FFFF00"
+            },
+            {
+              "severityLowerBound": 700,
+              "severityHigherBound": 1000,
+              "color": "#FF0000"
+            }
+          ],
+          "recipientList": [],
+          "valid": true
+        },
+        {
+          "type": "TISCADA.Alarm",
+          "id": "560110e4-ba5f-fbb4-7f2a-1b180f8d06fb",
+          "x": 420,
+          "y": 460,
+          "width": 60,
+          "height": 60,
+          "userData": null,
+          "cssClass": "TISCADA_Alarm",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          },
+          "dataSource": {
+            "type": "Middleware",
+            "mwNode": {
+              "path": "Tank conditions/DGA"
+            }
+          },
+          "alarmLevels": [
+            {
+              "severityLowerBound": 0,
+              "severityHigherBound": 499,
+              "color": "#00FF00"
+            },
+            {
+              "severityLowerBound": 500,
+              "severityHigherBound": 699,
+              "color": "#FFFF00"
+            },
+            {
+              "severityLowerBound": 700,
+              "severityHigherBound": 1000,
+              "color": "#FF0000"
+            }
+          ],
+          "recipientList": [],
+          "valid": true
+        },
+        {
+          "type": "TISCADA.Alarm",
+          "id": "a6452711-b2cd-a591-24cb-6c15d137a4f9",
+          "x": 85,
+          "y": 539,
+          "width": 60,
+          "height": 60,
+          "userData": null,
+          "cssClass": "TISCADA_Alarm",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          },
+          "dataSource": {
+            "type": "Middleware",
+            "mwNode": {
+              "path": "Tank conditions/Cooler 1"
+            }
+          },
+          "alarmLevels": [
+            {
+              "severityLowerBound": 0,
+              "severityHigherBound": 499,
+              "color": "#00FF00"
+            },
+            {
+              "severityLowerBound": 500,
+              "severityHigherBound": 699,
+              "color": "#FFFF00"
+            },
+            {
+              "severityLowerBound": 700,
+              "severityHigherBound": 1000,
+              "color": "#FF0000"
+            }
+          ],
+          "recipientList": [],
+          "valid": true
+        },
+        {
+          "type": "TISCADA.Alarm",
+          "id": "ac3d5a8b-0bb1-9e50-2f92-b076a3f9618c",
+          "x": 655,
+          "y": 565,
+          "width": 60,
+          "height": 60,
+          "userData": null,
+          "cssClass": "TISCADA_Alarm",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          },
+          "dataSource": {
+            "type": "Middleware",
+            "mwNode": {
+              "path": "Tank conditions/Cooler 2"
+            }
+          },
+          "alarmLevels": [
+            {
+              "severityLowerBound": 0,
+              "severityHigherBound": 499,
+              "color": "#00FF00"
+            },
+            {
+              "severityLowerBound": 500,
+              "severityHigherBound": 699,
+              "color": "#FFFF00"
+            },
+            {
+              "severityLowerBound": 700,
+              "severityHigherBound": 1000,
+              "color": "#FF0000"
+            }
+          ],
+          "recipientList": [],
+          "valid": true
+        },
+        {
+          "type": "TISCADA.Note",
+          "id": "ea40bf6b-75db-9a5a-92f6-143f4dd9b3de",
+          "x": 189,
+          "y": 97,
+          "width": 47,
+          "height": 31,
+          "userData": null,
+          "cssClass": "TISCADA_Note noteComponent",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "text": "PH A",
+          "fontSize": 12,
+          "fontColor": "#080808",
+          "fontFamily": null,
+          "note": "PH A",
+          "valid": true,
+          "componentType": "TISCADA.Note",
+          "pageLink": {
+            "pageId": "5de8260c-d8bb-0676-6924-d471f32181bc",
+            "parameterList": [
+              {
+                "name": "Phase",
+                "value": "A"
+              },
+              {
+                "name": "Previous",
+                "value": "C"
+              },
+              {
+                "name": "Next",
+                "value": "B"
+              }
+            ]
+          }
+        },
+        {
+          "type": "TISCADA.Note",
+          "id": "c289bd05-3822-e796-697c-9c8ed137b27d",
+          "x": 428,
+          "y": 523.5625,
+          "width": 45,
+          "height": 31,
+          "userData": null,
+          "cssClass": "TISCADA_Note noteComponent",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "text": "DGA",
+          "fontSize": 12,
+          "fontColor": "#080808",
+          "fontFamily": null,
+          "note": "DGA",
+          "valid": true,
+          "componentType": "TISCADA.Note",
+          "pageLink": {
+            "pageId": "e6b73ffc-62d0-32a7-9dd4-a773839415c4",
+            "parameterList": []
+          }
+        },
+        {
+          "type": "TISCADA.Note",
+          "id": "3d0f690e-c154-aa1e-fd45-4993ec511634",
+          "x": 666,
+          "y": 630.5625,
+          "width": 40,
+          "height": 31,
+          "userData": null,
+          "cssClass": "TISCADA_Note noteComponent",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "text": "C#2",
+          "fontSize": 12,
+          "fontColor": "#080808",
+          "fontFamily": null,
+          "note": "C#2",
+          "valid": true,
+          "componentType": "TISCADA.Note",
+          "pageLink": {
+            "pageId": "e6b73ffc-62d0-32a7-9dd4-a773839415c4",
+            "parameterList": []
+          }
+        },
+        {
+          "type": "TISCADA.Note",
+          "id": "9ab5da69-0beb-edf1-02a3-771b9ef7ddcc",
+          "x": 95,
+          "y": 607.5625,
+          "width": 40,
+          "height": 31,
+          "userData": null,
+          "cssClass": "TISCADA_Note noteComponent",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "text": "C#1",
+          "fontSize": 12,
+          "fontColor": "#080808",
+          "fontFamily": null,
+          "note": "C#1",
+          "valid": true,
+          "componentType": "TISCADA.Note",
+          "pageLink": {
+            "pageId": "e6b73ffc-62d0-32a7-9dd4-a773839415c4",
+            "parameterList": []
+          }
+        },
+        {
+          "type": "TISCADA.Note",
+          "id": "e24663ba-9e91-67bf-7495-9c628fa3cd5d",
+          "x": 322,
+          "y": 63.5625,
+          "width": 47,
+          "height": 31,
+          "userData": null,
+          "cssClass": "TISCADA_Note noteComponent",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "text": "PH B",
+          "fontSize": 12,
+          "fontColor": "#080808",
+          "fontFamily": null,
+          "note": "PH B",
+          "valid": true,
+          "componentType": "TISCADA.Note",
+          "pageLink": {
+            "pageId": "5de8260c-d8bb-0676-6924-d471f32181bc",
+            "parameterList": [
+              {
+                "name": "Phase",
+                "value": "A"
+              },
+              {
+                "name": "Previous",
+                "value": "C"
+              },
+              {
+                "name": "Next",
+                "value": "B"
+              }
+            ]
+          }
+        },
+        {
+          "type": "TISCADA.Note",
+          "id": "19f6296f-834c-df59-7454-9e1a3e4904be",
+          "x": 468,
+          "y": 44,
+          "width": 48,
+          "height": 31,
+          "userData": null,
+          "cssClass": "TISCADA_Note noteComponent",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "text": "PH C",
+          "fontSize": 12,
+          "fontColor": "#080808",
+          "fontFamily": null,
+          "note": "PH C",
+          "valid": true,
+          "componentType": "TISCADA.Note",
+          "pageLink": {
+            "pageId": "5de8260c-d8bb-0676-6924-d471f32181bc",
+            "parameterList": [
+              {
+                "name": "Phase",
+                "value": "A"
+              },
+              {
+                "name": "Previous",
+                "value": "C"
+              },
+              {
+                "name": "Next",
+                "value": "B"
+              }
+            ]
+          }
+        },
+        {
+          "type": "TISCADA.Note",
+          "id": "4d78cbdd-9f56-726d-c2ba-7e61000c7bc9",
+          "x": 512,
+          "y": 230.09375,
+          "width": 95,
+          "height": 31,
+          "userData": null,
+          "cssClass": "TISCADA_Note noteComponent",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "text": "Temp Oil °C",
+          "fontSize": 12,
+          "fontColor": "#080808",
+          "fontFamily": null,
+          "note": "Temp Oil °C",
+          "valid": true,
+          "componentType": "TISCADA.Note",
+          "pageLink": {
+            "pageId": "5de8260c-d8bb-0676-6924-d471f32181bc",
+            "parameterList": [
+              {
+                "name": "Phase",
+                "value": "A"
+              },
+              {
+                "name": "Previous",
+                "value": "C"
+              },
+              {
+                "name": "Next",
+                "value": "B"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "id": "893a45a0-e7e3-e56c-2293-1eab156ff09c",
+      "name": "Trends",
+      "parameterList": [],
+      "componentList": [
+        {
+          "type": "TISCADA.Note",
+          "id": "03eea48b-e6c3-b2c3-113a-ced2a05f56a9",
+          "x": 307,
+          "y": 6,
+          "width": 187,
+          "height": 28,
+          "userData": null,
+          "cssClass": "TISCADA_Note noteComponent",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "text": "Environmental Conditions",
+          "fontSize": 12,
+          "fontColor": "#080808",
+          "fontFamily": null,
+          "note": "Environmental Conditions",
+          "valid": true,
+          "componentType": "TISCADA.Note",
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          }
+        },
+        {
+          "type": "TISCADA.Note",
+          "id": "0e8869ba-a987-caa1-9d45-f2a497fd0584",
+          "x": 325,
+          "y": 404,
+          "width": 145,
+          "height": 28,
+          "userData": null,
+          "cssClass": "TISCADA_Note noteComponent",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "text": "Bushing Conditions",
+          "fontSize": 12,
+          "fontColor": "#080808",
+          "fontFamily": null,
+          "note": "Bushing Conditions",
+          "valid": true,
+          "componentType": "TISCADA.Note",
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          }
+        },
+        {
+          "type": "TISCADA.HDAViewer",
+          "id": "b97b906f-b6c6-534b-8f61-51fa8db4b40f",
+          "x": 40,
+          "y": 39,
+          "width": 701,
+          "height": 346,
+          "userData": null,
+          "cssClass": "TISCADA_HDAViewer",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "dataSource": [
+            {
+              "type": "Middleware",
+              "mwNode": {
+                "path": "environmental conditions/Humidity"
+              },
+              "displayName": "Humidity"
+            },
+            {
+              "type": "Middleware",
+              "mwNode": {
+                "path": "environmental conditions/Temperature"
+              },
+              "displayName": "Temperature"
+            }
+          ],
+          "readOnly": true,
+          "valid": true
+        },
+        {
+          "type": "TISCADA.HDAViewer",
+          "id": "71519010-25a8-04d3-6373-94ebb5c5ac2a",
+          "x": 40,
+          "y": 437,
+          "width": 701,
+          "height": 346,
+          "userData": null,
+          "cssClass": "TISCADA_HDAViewer",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "dataSource": [
+            {
+              "type": "Middleware",
+              "mwNode": {
+                "path": "Bushing PH-A/Partial Discharge"
+              },
+              "displayName": "PD A"
+            },
+            {
+              "type": "Middleware",
+              "mwNode": {
+                "path": "Bushing PH-B/Partial Discharge"
+              },
+              "displayName": "PD B"
+            },
+            {
+              "type": "Middleware",
+              "mwNode": {
+                "path": "Bushing PH-C/Partial Discharge"
+              },
+              "displayName": "PD C"
+            }
+          ],
+          "readOnly": true,
+          "valid": true
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "id": "c87ef828-570e-237f-c465-772a03ac3966",
+      "name": "PD in-depth",
+      "parameterList": [
+        {
+          "name": "Phase"
+        }
+      ],
+      "componentList": [
+        {
+          "type": "TISCADA.HDAViewer",
+          "id": "6fe63108-eb3b-8c06-f9dc-d7662d50975f",
+          "x": 20,
+          "y": 81,
+          "width": 748,
+          "height": 200,
+          "userData": null,
+          "cssClass": "TISCADA_HDAViewer",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "dataSource": [
+            {
+              "type": "Middleware",
+              "mwNode": {
+                "path": "Bushing PH-$Phase$/Partial Discharge"
+              },
+              "displayName": "Partial Discharge"
+            }
+          ],
+          "readOnly": true,
+          "valid": true
+        },
+        {
+          "type": "TISCADA.HDAViewer",
+          "id": "14cdc7c7-e933-b906-064b-63021383d53e",
+          "x": 20,
+          "y": 328.09375,
+          "width": 348,
+          "height": 200,
+          "userData": null,
+          "cssClass": "TISCADA_HDAViewer",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "dataSource": [
+            {
+              "type": "Middleware",
+              "mwNode": {
+                "path": "Bushing PH-$Phase$/Tan Delta Value"
+              },
+              "displayName": "Tan Delta"
+            }
+          ],
+          "readOnly": true,
+          "valid": true
+        },
+        {
+          "type": "TISCADA.HDAViewer",
+          "id": "83c17e22-5d9e-6e09-4a83-af51f977b7f8",
+          "x": 20,
+          "y": 581.09375,
+          "width": 348,
+          "height": 200,
+          "userData": null,
+          "cssClass": "TISCADA_HDAViewer",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "dataSource": [
+            {
+              "type": "Middleware",
+              "mwNode": {
+                "path": "Bushing PH-$Phase$/Resistance Value"
+              },
+              "displayName": "Resistance"
+            }
+          ],
+          "readOnly": true,
+          "valid": true
+        },
+        {
+          "type": "TISCADA.HDAViewer",
+          "id": "8ec75841-9f70-920b-8f9f-acf732a24d9c",
+          "x": 420,
+          "y": 328.09375,
+          "width": 348,
+          "height": 200,
+          "userData": null,
+          "cssClass": "TISCADA_HDAViewer",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "dataSource": [
+            {
+              "type": "Middleware",
+              "mwNode": {
+                "path": "Bushing PH-$Phase$/Temperature value"
+              },
+              "displayName": "Temperature"
+            }
+          ],
+          "readOnly": true,
+          "valid": true
+        },
+        {
+          "type": "TISCADA.HDAViewer",
+          "id": "ff76bc58-0c92-75d6-0397-5e12a3d26acc",
+          "x": 420,
+          "y": 581.09375,
+          "width": 348,
+          "height": 200,
+          "userData": null,
+          "cssClass": "TISCADA_HDAViewer",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "dataSource": [
+            {
+              "type": "Middleware",
+              "mwNode": {
+                "path": "Bushing PH-$Phase$/Capacitance value"
+              },
+              "displayName": "Capacitance"
+            }
+          ],
+          "readOnly": true,
+          "valid": true
+        },
+        {
+          "type": "TISCADA.Note",
+          "id": "6ef0cc14-fe82-b628-641e-74283712fc35",
+          "x": 20,
+          "y": 8.09375,
+          "width": 122,
+          "height": 28,
+          "userData": null,
+          "cssClass": "TISCADA_Note noteComponent",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "text": "Phase $Phase$",
+          "fontSize": 12,
+          "fontColor": "#080808",
+          "fontFamily": null,
+          "note": "Phase $Phase$",
+          "valid": true,
+          "componentType": "TISCADA.Note",
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          }
+        },
+        {
+          "type": "TISCADA.Note",
+          "id": "8254bb70-39c6-0249-2cc5-9a4879c362e7",
+          "x": 420,
+          "y": 295.09375,
+          "width": 99,
+          "height": 28,
+          "userData": null,
+          "cssClass": "TISCADA_Note noteComponent",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "text": "Temperature",
+          "fontSize": 12,
+          "fontColor": "#080808",
+          "fontFamily": null,
+          "note": "Temperature",
+          "valid": true,
+          "componentType": "TISCADA.Note",
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          }
+        },
+        {
+          "type": "TISCADA.Note",
+          "id": "9e55d12f-77f4-59c7-56d9-304167d84e4c",
+          "x": 20,
+          "y": 295.09375,
+          "width": 77,
+          "height": 28,
+          "userData": null,
+          "cssClass": "TISCADA_Note noteComponent",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "text": "Tan Delta",
+          "fontSize": 12,
+          "fontColor": "#080808",
+          "fontFamily": null,
+          "note": "Tan Delta",
+          "valid": true,
+          "componentType": "TISCADA.Note",
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          }
+        },
+        {
+          "type": "TISCADA.Note",
+          "id": "b9bb632f-d198-ae3f-b94f-508451af92c2",
+          "x": 20,
+          "y": 547.09375,
+          "width": 88,
+          "height": 28,
+          "userData": null,
+          "cssClass": "TISCADA_Note noteComponent",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "text": "Resistance",
+          "fontSize": 12,
+          "fontColor": "#080808",
+          "fontFamily": null,
+          "note": "Resistance",
+          "valid": true,
+          "componentType": "TISCADA.Note",
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          }
+        },
+        {
+          "type": "TISCADA.Note",
+          "id": "bfa56e7e-052d-8fdc-87cd-77c9480615ac",
+          "x": 420,
+          "y": 547.09375,
+          "width": 99,
+          "height": 28,
+          "userData": null,
+          "cssClass": "TISCADA_Note noteComponent",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "text": "Capacitance",
+          "fontSize": 12,
+          "fontColor": "#080808",
+          "fontFamily": null,
+          "note": "Capacitance",
+          "valid": true,
+          "componentType": "TISCADA.Note",
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          }
+        },
+        {
+          "type": "TISCADA.Note",
+          "id": "f9204714-c00a-9d9b-ea46-5a7789694902",
+          "x": 20,
+          "y": 47.09375,
+          "width": 131,
+          "height": 28,
+          "userData": null,
+          "cssClass": "TISCADA_Note noteComponent",
+          "bgColor": "#FFFFFF",
+          "color": "#1B1B1B",
+          "stroke": 1,
+          "alpha": 1,
+          "radius": 2,
+          "text": "Partial Discharge",
+          "fontSize": 12,
+          "fontColor": "#080808",
+          "fontFamily": null,
+          "note": "Partial Discharge",
+          "valid": true,
+          "componentType": "TISCADA.Note",
+          "pageLink": {
+            "pageId": null,
+            "parameterList": []
+          }
+        }
+      ]
+    }
+  ],
+  "opcServerList": [
+    {
+      "id": "cd42445c-2985-4907-94fc-8d2fb79db23a",
+      "name": "opcDAServer",
+      "type": "TISCADA.OpcInfo",
+      "value": "opc.tcp://svilsql2012:62544/Quickstarts/DataAccessServer"
+    },
+    {
+      "id": "d082f9f1-4f60-4605-9f71-fccc62d70d3e",
+      "name": "opcHDAServer",
+      "type": "TISCADA.OpcInfo",
+      "value": "opc.tcp://svilsql2012:62546/Quickstarts/HistoricalAccessServer"
+    },
+    {
+      "id": "005a761d-1314-4ebd-aff1-9d20c64c3ad2",
+      "name": "opcAlarmServer",
+      "type": "TISCADA.OpcInfo",
+      "value": "opc.tcp://svilsql2012:62541/Quickstarts/AlarmConditionServer"
+    },
+    {
+      "id": "e3895983-7f14-cb89-4157-1bb7538f59e9",
+      "name": "opcDAServer2",
+      "type": "TISCADA.OpcInfo",
+      "value": "opc.tcp://svilsql2012:62563/Quickstarts/DataAccessServer"
+    },
+    {
+      "id": "f0bc902a-8909-939b-10f0-241859d10941",
+      "name": "opcAlarmServer2",
+      "type": "TISCADA.OpcInfo",
+      "value": "opc.tcp://svilsql2012:62548/Quickstarts/AlarmConditionServer"
+    },
+    {
+      "id": "0fe466d7-9ce5-1271-7f90-4ab45dc53f79",
+      "name": "opcAlarmServer3",
+      "type": "TISCADA.OpcInfo",
+      "value": "opc.tcp://svilsql2012:62551/Quickstarts/AlarmConditionServer"
+    },
+    {
+      "id": "b5fe78f0-95ae-1aa6-4ca2-fed0522de519",
+      "name": "opcAlarmServer4",
+      "type": "TISCADA.OpcInfo",
+      "value": "opc.tcp://svilsql2012:62554/Quickstarts/AlarmConditionServer"
+    }
+  ],
+  "valid": true,
+  "measurementUnits": [
+    {
+      "id": 0,
+      "label": "Scalar"
+    },
+    {
+      "id": 1,
+      "label": "Volt"
+    },
+    {
+      "id": 2,
+      "label": "Watt"
+    },
+    {
+      "id": 3,
+      "label": "Coulomb"
+    },
+    {
+      "id": 4,
+      "label": "Ohm"
+    },
+    {
+      "id": 5,
+      "label": "Ampere"
+    },
+    {
+      "id": 6,
+      "label": "Hz"
+    },
+    {
+      "id": 7,
+      "label": "n"
+    },
+    {
+      "id": 8,
+      "label": "n/s"
+    },
+    {
+      "id": 9,
+      "label": "ppm"
+    },
+    {
+      "id": 10,
+      "label": "C°"
+    },
+    {
+      "id": 11,
+      "label": "%"
+    },
+    {
+      "id": 12,
+      "label": "ppm/day"
+    }
+  ],
+  "dlgWidth": 800,
+  "dlgHeight": 894
+},"mwTreeDataJson":{"id":"5acc25e7-86d8-0a69-3662-cc09dd92ab35","name":"Data","type":"DATA_ROOT","valid":true,"children":[{"id":"29e6b12c-615a-0a80-95a5-7972cbeb92e7","name":"environmental conditions","type":"FOLDER","valid":true,"children":[{"id":"f3628f17-dc93-8098-1f18-93f37cbe1f3e","name":"Temperature","type":"DATA","valid":true,"dataSource":{"type":"Opc","opcNode":{"namespaceIndex":"2","opcUrl":"opcDAServer","datasourceType":"da","identifier":"1:Pipe1002?Measurement","identifierType":"1"}},"UM":10,"storageEnabled":true,"minSampleFreq":"10","children":[]},{"id":"3bcc48e5-3271-8824-9fb4-95291010afa7","name":"Humidity","type":"DATA","valid":true,"dataSource":{"type":"Opc","opcNode":{"namespaceIndex":"2","opcUrl":"opcDAServer","datasourceType":"da","identifier":"1:Pipe1001?Measurement","identifierType":"1"}},"UM":11,"storageEnabled":true,"minSampleFreq":"10","children":[]}]},{"id":"f8a0b693-3805-cfcd-a74b-6a5bb820c1c7","name":"operative conditions","type":"FOLDER","valid":true,"children":[{"id":"aeac0720-c3d4-0150-e5ea-0407b7c26fa1","name":"Ageing","type":"DATA","valid":true,"dataSource":{"type":"Opc","opcNode":{"namespaceIndex":"2","opcUrl":"opcDAServer","datasourceType":"da","identifier":"1:Pipe2001?Measurement","identifierType":"1"}},"UM":0,"storageEnabled":false,"children":[]},{"id":"e0b3ff4f-e495-36a4-6fe0-931ca0cdf1b1","name":"Load ratio","type":"DATA","valid":true,"dataSource":{"type":"Opc","opcNode":{"namespaceIndex":"2","opcUrl":"opcDAServer","datasourceType":"da","identifier":"1:Pipe2002?Measurement","identifierType":"1"}},"UM":0,"storageEnabled":false,"children":[]},{"id":"c74d1281-0173-76bc-21a3-14de837f11f0","name":"Overload capacity","type":"DATA","valid":true,"dataSource":{"type":"Opc","opcNode":{"namespaceIndex":"2","opcUrl":"opcDAServer","datasourceType":"da","identifier":"1:Drum1002?Measurement","identifierType":"1"}},"UM":0,"storageEnabled":false,"children":[]},{"id":"d6b2e2e4-7040-8783-ccef-1557701bfd2e","name":"Temp Oil","type":"DATA","valid":true,"dataSource":{"type":"Opc","opcNode":{"namespaceIndex":"2","opcUrl":"opcDAServer","datasourceType":"da","identifier":"1:Drum2002?Measurement","identifierType":"1"}},"UM":10,"storageEnabled":false,"children":[]},{"id":"72004405-48ae-dee5-0c08-052ebbc9e79a","name":"cooling fan #1","type":"DATA","valid":true,"dataSource":{"type":"Opc","opcNode":{"namespaceIndex":"2","opcUrl":"opcDAServer","datasourceType":"da","identifier":"1:Pipe1001?Online","identifierType":"1"}},"UM":0,"storageEnabled":false,"children":[]},{"id":"0b7656fb-954d-056d-72ee-8fb1a91cffac","name":"cooling fan #2","type":"DATA","valid":true,"dataSource":{"type":"Opc","opcNode":{"namespaceIndex":"2","opcUrl":"opcDAServer","datasourceType":"da","identifier":"1:Pipe1002?Online","identifierType":"1"}},"UM":0,"storageEnabled":false,"children":[]}]},{"id":"d219d16d-cfe1-65a5-807b-e7f22484b2b0","name":"global alarm","type":"ALARM","valid":true,"dataSource":{"type":"Opc","opcNode":{"namespaceIndex":"2","opcUrl":"opcAlarmServer","datasourceType":"alarm","identifier":"1:Colours/NorthMotor?Yellow","identifierType":"1"}},"UM":0,"storageEnabled":false,"children":[]},{"id":"678c3096-1fb5-4421-0058-9c575e0ff846","name":"Bushing PH-A","type":"TEMPLATE_INSTANCE","valid":true,"templateId":"cfdcf618-210c-1e2a-1d21-38ea7ec9d907","templateParameters":[{"name":"ServerDa","value":"opcDAServer"},{"name":"ServerAlarm","value":"opcAlarmServer2"}],"children":[]},{"id":"413ef089-3519-508a-d918-008c4594693b","name":"Bushing PH-B","type":"TEMPLATE_INSTANCE","valid":true,"templateId":"cfdcf618-210c-1e2a-1d21-38ea7ec9d907","templateParameters":[{"name":"ServerDa","value":"opcDAServer2"},{"name":"ServerAlarm","value":"opcAlarmServer3"}],"children":[]},{"id":"fc980157-e965-72a4-2d37-82cebea94181","name":"Bushing PH-C","type":"TEMPLATE_INSTANCE","valid":true,"templateId":"cfdcf618-210c-1e2a-1d21-38ea7ec9d907","templateParameters":[{"name":"ServerDa","value":"opcDAServer"},{"name":"ServerAlarm","value":"opcAlarmServer4"}],"children":[]},{"id":"991071ca-4e37-0391-a6c0-6fbe377c8924","name":"Tank conditions","type":"FOLDER","valid":true,"children":[{"id":"569bd721-c2a6-06e1-3887-de12329473ff","name":"Cooler 1","type":"ALARM","valid":true,"dataSource":{"type":"Opc","opcNode":{"namespaceIndex":"2","opcUrl":"opcAlarmServer","datasourceType":"alarm","identifier":"1:Colours/EastTank?Red","identifierType":"1"}},"UM":0,"storageEnabled":false,"children":[]},{"id":"6b70cfcf-4463-9874-0305-b2672ade01dc","name":"Cooler 2","type":"ALARM","valid":true,"dataSource":{"type":"Opc","opcNode":{"namespaceIndex":"2","opcUrl":"opcAlarmServer","datasourceType":"alarm","identifier":"1:Colours/EastTank?Yellow","identifierType":"1"}},"UM":0,"storageEnabled":false,"children":[]},{"id":"3e145513-9282-a8fa-8593-90d0b40e43ae","name":"DGA","type":"ALARM","valid":true,"dataSource":{"type":"Opc","opcNode":{"namespaceIndex":"2","opcUrl":"opcAlarmServer","datasourceType":"alarm","identifier":"1:Colours/EastTank?Green","identifierType":"1"}},"UM":0,"storageEnabled":false,"children":[]},{"id":"1d51bb0b-f457-ea1d-041d-db44f1e9856b","name":"Top Oil","type":"ALARM","valid":true,"dataSource":{"type":"Opc","opcNode":{"namespaceIndex":"2","opcUrl":"opcAlarmServer","datasourceType":"alarm","identifier":"1:Colours/NorthMotor?Red","identifierType":"1"}},"UM":0,"storageEnabled":false,"children":[]}]}]},
+"mwTreeTemplatesJson":[{
+  "id": "cfdcf618-210c-1e2a-1d21-38ea7ec9d907",
+  "name": "Bushing",
+  "type": "TEMPLATE_NAME",
+  "valid": true,
+  "templateId": null,
+  "templateParameters": [
+    {
+      "name": "ServerDa",
+      "value": null,
+      "id": "caf239ad-0e23-2058-ad49-f0ad5cddbdd8"
+    },
+    {
+      "name": "ServerAlarm",
+      "value": null,
+      "id": "a1acf8c0-add3-a74e-3705-6a8bfb02c776"
+    }
+  ],
+  "children": [
+    {
+      "id": "beabe48c-a235-68ce-0548-1581ee5a4c18",
+      "name": "Bushing alarm",
+      "type": "ALARM",
+      "valid": true,
+      "dataSource": {
+        "type": "Opc",
+        "opcNode": {
+          "namespaceIndex": "2",
+          "opcUrl": "$ServerAlarm$",
+          "datasourceType": "alarm",
+          "identifier": "1:Colours/EastTank?Red",
+          "identifierType": "1"
+        }
+      },
+      "UM": 0,
+      "storageEnabled": false,
+      "children": []
+    },
+    {
+      "id": "14ab5981-b6a4-c918-0d04-4296d87718a7",
+      "name": "Tan Delta Value",
+      "type": "DATA",
+      "valid": true,
+      "dataSource": {
+        "type": "Opc",
+        "opcNode": {
+          "namespaceIndex": "2",
+          "opcUrl": "$ServerDa$",
+          "datasourceType": "da",
+          "identifier": "1:Pipe2002?Measurement",
+          "identifierType": "1"
+        }
+      },
+      "UM": 0,
+      "storageEnabled": true,
+      "minSampleFreq": "10",
+      "children": []
+    },
+    {
+      "id": "84507b03-9607-ebf3-f5e7-7f50b1e0a95f",
+      "name": "Partial Discharge",
+      "type": "DATA",
+      "valid": true,
+      "dataSource": {
+        "type": "Opc",
+        "opcNode": {
+          "namespaceIndex": "2",
+          "opcUrl": "$ServerDa$",
+          "datasourceType": "da",
+          "identifier": "1:Pipe1002?Measurement",
+          "identifierType": "1"
+        }
+      },
+      "UM": 1,
+      "storageEnabled": true,
+      "minSampleFreq": "10",
+      "children": []
+    },
+    {
+      "id": "e9ab0e79-4c00-d009-6799-e9fa1a9c9a59",
+      "name": "Capacitance value",
+      "type": "DATA",
+      "valid": true,
+      "dataSource": {
+        "type": "Opc",
+        "opcNode": {
+          "namespaceIndex": "2",
+          "opcUrl": "$ServerDa$",
+          "datasourceType": "da",
+          "identifier": "1:Pipe1001?Measurement",
+          "identifierType": "1"
+        }
+      },
+      "UM": 3,
+      "storageEnabled": true,
+      "minSampleFreq": "10",
+      "children": []
+    },
+    {
+      "id": "2c27c6c8-d617-b723-54f4-0f8494b44887",
+      "name": "Resistance Value",
+      "type": "DATA",
+      "valid": true,
+      "dataSource": {
+        "type": "Opc",
+        "opcNode": {
+          "namespaceIndex": "2",
+          "opcUrl": "$ServerDa$",
+          "datasourceType": "da",
+          "identifier": "1:Pipe2001?Measurement",
+          "identifierType": "1"
+        }
+      },
+      "UM": 4,
+      "storageEnabled": true,
+      "minSampleFreq": "10",
+      "children": []
+    },
+    {
+      "id": "3d58d971-cbeb-adab-73a6-0c5289518220",
+      "name": "Temperature value",
+      "type": "DATA",
+      "valid": true,
+      "dataSource": {
+        "type": "Opc",
+        "opcNode": {
+          "namespaceIndex": "2",
+          "opcUrl": "$ServerDa$",
+          "datasourceType": "da",
+          "identifier": "1:Drum1002?Measurement",
+          "identifierType": "1"
+        }
+      },
+      "UM": 10,
+      "storageEnabled": true,
+      "minSampleFreq": "10",
+      "children": []
+    },
+    {
+      "id": "a5781628-ab4b-ba98-0b5a-77214dabfc02",
+      "name": "AC TD",
+      "type": "DATA",
+      "valid": true,
+      "dataSource": {
+        "type": "Constant",
+        "constant": {
+          "constantValue": "0"
+        }
+      },
+      "UM": 0,
+      "storageEnabled": false,
+      "children": []
+    },
+    {
+      "id": "cfffc877-3015-42da-d802-79653e7f08f8",
+      "name": "AC PD",
+      "type": "DATA",
+      "valid": true,
+      "dataSource": {
+        "type": "Constant",
+        "constant": {
+          "constantValue": "0"
+        }
+      },
+      "UM": 1,
+      "storageEnabled": false,
+      "children": []
+    },
+    {
+      "id": "ce6d97d6-1ba4-1f7a-caef-365561ca22b0",
+      "name": "AC Capacitance",
+      "type": "DATA",
+      "valid": true,
+      "dataSource": {
+        "type": "Constant",
+        "constant": {
+          "constantValue": "0"
+        }
+      },
+      "UM": 3,
+      "storageEnabled": false,
+      "children": []
+    },
+    {
+      "id": "581299d7-0405-13ca-86a9-ea8d1ff8265e",
+      "name": "AC Resistance",
+      "type": "DATA",
+      "valid": true,
+      "dataSource": {
+        "type": "Constant",
+        "constant": {
+          "constantValue": "0"
+        }
+      },
+      "UM": 4,
+      "storageEnabled": false,
+      "children": []
+    },
+    {
+      "id": "00b59218-034a-edc6-02f0-ef3c4a8d9d21",
+      "name": "AC Temperature",
+      "type": "DATA",
+      "valid": true,
+      "dataSource": {
+        "type": "Constant",
+        "constant": {
+          "constantValue": "0"
+        }
+      },
+      "UM": 10,
+      "storageEnabled": false,
+      "children": []
+    },
+    {
+      "id": "f3abc854-77c4-f51f-9b23-c19b83fc1c77",
+      "name": "TD alarm",
+      "type": "ALARM",
+      "valid": true,
+      "dataSource": {
+        "type": "Opc",
+        "opcNode": {
+          "namespaceIndex": "2",
+          "opcUrl": "$ServerAlarm$",
+          "datasourceType": "alarm",
+          "identifier": "1:Colours/NorthMotor?Yellow",
+          "identifierType": "1"
+        }
+      },
+      "UM": 0,
+      "storageEnabled": false,
+      "children": []
+    },
+    {
+      "id": "b8ccc8cf-b2f5-f9d2-1877-8bbff331e387",
+      "name": "Capacitance Alarm",
+      "type": "ALARM",
+      "valid": true,
+      "dataSource": {
+        "type": "Opc",
+        "opcNode": {
+          "namespaceIndex": "2",
+          "opcUrl": "$ServerAlarm$",
+          "datasourceType": "alarm",
+          "identifier": "1:Colours/EastTank?Yellow",
+          "identifierType": "1"
+        }
+      },
+      "UM": 0,
+      "storageEnabled": false,
+      "children": []
+    },
+    {
+      "id": "fc0ce0b1-8057-009d-ea46-2eb109631088",
+      "name": "PD Alarm",
+      "type": "ALARM",
+      "valid": true,
+      "dataSource": {
+        "type": "Opc",
+        "opcNode": {
+          "namespaceIndex": "2",
+          "opcUrl": "$ServerAlarm$",
+          "datasourceType": "alarm",
+          "identifier": "1:Colours/EastTank?Green",
+          "identifierType": "1"
+        }
+      },
+      "UM": 0,
+      "storageEnabled": false,
+      "children": []
+    },
+    {
+      "id": "1d8247ce-5f48-264d-f8be-fcab6f25a678",
+      "name": "Resistance Alarm",
+      "type": "ALARM",
+      "valid": true,
+      "dataSource": {
+        "type": "Opc",
+        "opcNode": {
+          "namespaceIndex": "2",
+          "opcUrl": "$ServerAlarm$",
+          "datasourceType": "alarm",
+          "identifier": "1:Colours/NorthMotor?Red",
+          "identifierType": "1"
+        }
+      },
+      "UM": 0,
+      "storageEnabled": false,
+      "children": []
+    },
+    {
+      "id": "dcab19f7-951e-d99b-9a4e-563aed00e50a",
+      "name": "Temperature Alarm",
+      "type": "ALARM",
+      "valid": true,
+      "dataSource": {
+        "type": "Opc",
+        "opcNode": {
+          "namespaceIndex": "2",
+          "opcUrl": "$ServerAlarm$",
+          "datasourceType": "alarm",
+          "identifier": "1:Colours/NorthMotor?Green",
+          "identifierType": "1"
+        }
+      },
+      "UM": 0,
+      "storageEnabled": false,
+      "children": []
+    }
+  ]
+}],"fbpNetworksJson":[]}

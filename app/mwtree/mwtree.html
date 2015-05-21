@@ -1,0 +1,8 @@
+<span ng-class="{root: child.type == 'DATA_ROOT', folder: child.type == 'FOLDER'}">
+  <span draggable>{{ child.name }} ({{child.children.length}})</span>
+  <a ng-if="child.children.length" href="#" ng-click="child.show=!child.show">open/close</a>
+<span>
+<ul ng-if="child.show" ng-if="child.children">
+  <li ng-repeat="child in child.children | filter:search | orderBy:'name'" ng-include="'mioTree'">
+  </li>
+</ul>

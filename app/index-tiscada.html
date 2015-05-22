@@ -13,7 +13,14 @@
   </style>
 </head>
 
-<body ng-app="myApp" ng-controller='AppCtrl'>
+<body ng-app="TiscadaApp" ng-controller='AppCtrl'>
+
+  <p>
+    <a href="#" ng-click="setLang('EN')">English</a> | <a href="#" ng-click="setLang('IT')">Italiano</a>
+  </p>
+
+  <h1>{{'TITLE' | translate }}</h1>
+  <h3>{{'HEADER' | translate}}</h3>
 
   <h2>Test AngularJS and ExtendJS</h2>
 
@@ -58,11 +65,13 @@
 
   <script src="bower_components/angular/angular.js"></script>
   <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="bower_components/angular-translate/angular-translate.js"></script>
   <script src="bower_components/extend.js/bin/extend.min.js"></script>
 
-  <script src="test.json"></script>
+  <script src="translation.js"></script>
+  <script src="tiscada-data.json"></script>
   <script src="myclasses.js"></script>
-  <script src="test_app.js"></script>
+  <script src="tiscada_app.js"></script>
 
 </body>
 </html>

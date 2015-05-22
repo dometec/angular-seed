@@ -1,6 +1,11 @@
 'use strict';
 
-var app = angular.module('myApp', []);
+var app = angular.module('TiscadaApp', ['pascalprecht.translate']);
+
+app.config(['$translateProvider', function($translateProvider) {
+  $translateProvider.translations('IT', translation_IT);
+  $translateProvider.translations('EN', translation_EN);
+}]);
 
 app.directive('draggable', function() {
   return function(scope, element) {
@@ -74,10 +79,16 @@ var test = function() {
   return str;
 }
 
-app.controller('AppCtrl', function ($scope, $sce) {
+app.controller('AppCtrl', function ($scope, $sce, $translate) {
+
   $scope.child = JSONTI.mwTreeDataJson;
   $scope.teststring = $sce.trustAsHtml(test());
 
+  $scope.setLang = function(langKey) {
+    $translate.use(langKey);
+  }
+
   var classeEstesa = new MyExtendedClass();
   $scope.callOutsideAngular = classeEstesa.executeLogic;
+
 });
